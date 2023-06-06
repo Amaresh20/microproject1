@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .main {
+        background-color: #FFCD9E;
+        height: 592px;
+        padding: 70px 136px;
+        display: flex;
+        gap: 190px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    .bold-text {
+        font-weight: 800;
+        margin-top: 28px;
+        font-size: 20px;
+    }
+
+    .text {
+        margin-top: 28px;
+        font-size: 20px;
+    }
+
+    input {
+        width: 350px;
+        height: 64px;
+        border: 3px solid black;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .btn {
+        background-color: black;
+        height: 64px;
+        color: white;
+        width: 216px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .footer{
+        height: 298px;
+        width:100%;
+        background-color:#282828;
+        padding: 62px 191px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    li{
+        color: #FFFFFF;
+        list-style-type: none;
+        
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .icon{
+        justify-content: flex-end;
+        display: flex;
+        
+    }
+    .right_list{
+        text-align: end;
+    }
+    .left_list{
+        text-align: left;
+    }
+
+</style>
+<body>
+    <div class="container" >
+        <div class="main" >
+            <div class="content">
+                    <h1>An inspiring design delivered to your inbox every morning</h1>
+                    <p class="text">Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox</p>
+                    <p class="bold-text" >show me how it looks</p>
+                    <div class="wrapper">
+                        <input placeholder="Your email adress" />
+                        <button class="btn" >Register Now</button>
+                    </div>
+            </div>
+             <div>
+                <img src="asset/Vector (1).png" alt="vector">
+            </div>
+        </div>
+        <div class="footer">
+                <ul class="left_list">
+                    <li>Prompt Generator</li>
+                    <li>Dweep Daily</li>
+                    <li>All Contributors</li>
+                    <li>Your data on Dweep.io</li>
+                    <li>Contribute to Dweep</li>
+                </ul>
+                <ul class="right_list">
+                    <li> Dweep.io</li>
+                    <li>Made with love in India</li>
+                    <li class="icon"><img src="asset/LinkedinLogo.png"  /> <img  src="asset/InstagramLogo.png"/> </li>
+                   <br>
+                   <br>
+
+                   
+    
+                    <li>hello@dweep.io</li>
+                </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
